@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test2"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="36.904">
+  <properties />
+            <testcase name="tester" time="36.904" classname="Testing.Tester">
+                <failure type="java.lang.AssertionError"
+                  message="序号 No.3.0, 操作说明：Account number   原因： 连续2个操作找不到元素，有可能是定位错了，或者是流程出现未知的情况！！ expected [1] but found [0]"
+              >
+<![CDATA[java.lang.AssertionError: 序号 No.3.0, 操作说明：Account number   原因： 连续2个操作找不到元素，有可能是定位错了，或者是流程出现未知的情况！！ expected [1] but found [0]
+  Message : No.2.0 操作说明：close notice  没有找到元素！！
+操作时间: 2020-05-13 15:02:35 expected [1] but found [0] Class Method : .tester(Tester:107)
+  Testing.Tester.tester(Tester.java:107)
+  Testing.Tester.tester(Tester.java:102)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

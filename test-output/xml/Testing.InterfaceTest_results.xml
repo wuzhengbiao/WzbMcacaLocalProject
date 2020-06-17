@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Graphql接口"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="5.260">
+  <properties />
+            <testcase name="interfacetest" time="5.260" classname="Testing.InterfaceTest">
+                <failure type="Unknown"
+                  message="Unknown"
+              />
+          </testcase>
+  
+  
+  
+</testsuite>

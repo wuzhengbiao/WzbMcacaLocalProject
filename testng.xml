@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <listener class-name="CollectionOfFunctionalMethods.BasicMethods.AssertionListener" />
+        <listener class-name="CollectionOfFunctionalMethods.UseCaseReRunCorrelation.OverrideIAnnotationTransformer"/>
+    </listeners>
+    <test name="Test2">
+        <parameter name="TestFilePath" value="/TestList/7.0GSSZstudy.xlsx"/>
+        <parameter name="PlatformName" value="测试"/>
+        <parameter name="TIME" value="2"/>
+        <parameter name="Platform" value=""/>
+        <parameter name="ApkName" value=""/>
+        <parameter name="TestName" value="7.0GSSZstudy.xlsx"/>
+        <classes>
+            <class name="Testing.Tester"/>
+        </classes>
+    </test>
+
+</suite>

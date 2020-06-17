@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="临时用例"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="141.089">
+  <properties />
+  
+  
+            <testcase name="andriod" time="141.089" classname="Testing.AndriodTester" />
+      
+</testsuite>

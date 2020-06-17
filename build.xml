@@ -1,0 +1,20 @@
+<project name="HBMacaca" basedir="." >
+    <property name="lib.dir" value="lib" />
+    <path id="Testing.Tester" >
+        <!-- adding the saxon jar to your classpath -->
+        <fileset dir="${lib.dir}" includes="*.jar" />
+    </path>
+    <target name="transform" >
+        <!-- 需要根据自己的环境进行配置（将E:/workspace/testNG/替换成你自己project的目录）{name} ：自己的项目名字；
+        {in}：对应的是testng生成报告的xml；（指定该路径无需创建）
+        {style}：对应的是testng生成报告的xsl；（指定该路径无需创建）
+        {out}：是要用testNG-xslt生成报告的文件名和路径；（可以创建新的文件也可以指定到test-output）
+        {expression}：是要用testNG-xslt生成报告的路径； -->
+        <xslt in="E:\macaca\AutoTest6.0SYS\test-output\xml\Testing.Tester_results.xml" style="E:\macaca\AutoTest6.0SYS\test-output\xml\Testing.Tester_results.xml"
+              out="E:\macaca\AutoTest6.0SYS\test-output\html\index1.html" >
+            <!-- 需要根据自己的环境进行配置（将E:/workspace/testNG/替换成你自己project的目录） -->
+            <param name="testNgXslt.outputDir" expression="E:\macaca\AutoTest6.0SYS\test-output\html\" />
+            <classpath refid="Testing.Tester" />
+        </xslt>
+    </target>
+</project>
